@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SSL Debug (Launch)-App<java-websocket-demo>",
+            "request": "launch",
+            "mainClass": "net.rusty1.App",
+            "projectName": "java-websocket-demo",
+            "vmArgs": "-Djavax.net.debug=ssl,handshake"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<java-websocket-demo>",
+            "request": "launch",
+            "mainClass": "net.rusty1.App",
+            "projectName": "java-websocket-demo"
+        }
+    ]
+}
